@@ -1,0 +1,6 @@
+/usr/src/tensorrt/bin/trtexec --onnx=yolov5s_1_3_640_640.onnx --saveEngine=yolov5s_1_3_640_640.engine --workspace=2048
+
+/usr/src/tensorrt/bin/trtexec --onnx=resnet50_1_3_256_256.onnx --saveEngine=resnet50_1_3_256_256.engine --workspace=2048
+/usr/src/tensorrt/bin/trtexec --onnx=squeezenet1_1_3_256_256.onnx --saveEngine=squeezenet1_1_3_256_256.engine --workspace=2048
+
+/usr/src/tensorrt/bin/trtexec --onnx=resnet18_1_3_128_128.onnx --saveEngine=resnet18_1_3_128_128.engine --workspace=2048
